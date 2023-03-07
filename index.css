@@ -38,7 +38,7 @@
     background-color: #EFEFEF;
     padding: 10px;
     text-align: center;
-    height: 210px;
+    height: auto;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -70,4 +70,23 @@
     margin-left: 8%;
     margin-right: 8%;
     height: 600px;
+}
+@media (max-width: 767px) {
+    .dasboad-right{
+        width: 20%;
+    }  
+    .dasboad-left{
+        width: 80%;
+    } 
+    .header img{
+        width: 150px;
+        height: auto;
+    }
+    .heading, .contain{
+        margin: 0;
+    }
+    .contain1{
+        margin: 0;
+        height: auto;
+    }
 }
